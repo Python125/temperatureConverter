@@ -23,5 +23,16 @@ function convertToK(celsius) {
   return kelvin;
 };
 
-console.log(convertToK(-273.15));
+console.log(convertToK(0));
 
+function convertToF(kelvin) {
+  let fahrenheit = ((kelvin-273.15) *1.8) +32;
+  return fahrenheit
+}
+console.log(convertToF(100))
+
+function convertToC(kelvin) {
+  let celsius = kelvin - 273.15;
+  return celsius
+}
+console.log(convertToC(900))
