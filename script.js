@@ -3,20 +3,20 @@ function convertToC(fahrenheit) {
   return celsius;
 };
 
-console.log(convertToC(98.6));
+console.log(Math.round(convertToC(84)));
 
 function convertToK(fahrenheit) {
   let kelvin = ((fahrenheit-32)/1.8) + 273.15;
   return kelvin
 }
-console.log(convertToK(0))
+console.log(Math.round(convertToK(0)));
 
 function convertToF(celsius) {
   let fahrenheit = (celsius*1.8)+32;
   return fahrenheit;
 };
 
-console.log(convertToF(0));
+console.log(Math.round(convertToF(0)));
 
 function convertToK(celsius) {
   let kelvin = celsius + 273.15;
