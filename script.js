@@ -23,7 +23,7 @@ function convertToK(celsius) {
   return kelvin;
 };
 
-console.log(convertToK(0));
+console.log(Math.round(convertToK(0));
 
 function convertToF(kelvin) {
   let fahrenheit = ((kelvin-273.15) *1.8) +32;
